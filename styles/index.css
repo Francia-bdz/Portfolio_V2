@@ -160,7 +160,6 @@ h3 {
   position: absolute;
   top: 40px;
   left: 95%;
-  animation: rotateText 10s linear infinite;
 }
 @keyframes rotateText {
   0% {
@@ -231,6 +230,8 @@ h3 {
   display: flex;
   align-items: center;
   margin-top: 1rem;
+  justify-content: space-between;
+  max-width: 100px;
 }
 .projects .container .container_item .item .image img {
   max-width: 44px;
@@ -284,11 +285,13 @@ h3 {
 .skills .container .slideshow-container h4 {
   font-size: 26px;
   font-weight: 500;
+  margin-bottom: 20%;
 }
 .skills .container .slideshow-container .slide {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 350px;
 }
 .skills .container .slideshow-container .slide li {
   display: flex;
@@ -296,12 +299,11 @@ h3 {
   margin-top: 1.5rem;
 }
 .skills .container .slideshow-container .slide li img {
-  width: 50px;
-  object-fit: cover;
+  width: 40px;
   margin-right: 1rem;
 }
 .skills .container .slideshow-container .slide li p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 .skills .container .slideshow-container .slide .language {
