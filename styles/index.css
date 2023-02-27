@@ -76,6 +76,13 @@
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
+@font-face {
+  font-family: "Thunder";
+  src: url("/assets/font/Thunder-LightLC.otf") format("opentype"), url("/assets/font/Thunder-LightLC.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
 * {
   margin: 0;
   padding: 0;
@@ -140,7 +147,7 @@ h3 {
   font-weight: bold;
 }
 .home .container .adjective span {
-  color: #002FA7;
+  color: rgba(0, 0, 0, 0);
 }
 .home .container .circle {
   position: relative;
@@ -227,11 +234,27 @@ h3 {
 }
 .projects .container .container_item .item .image img {
   max-width: 44px;
-  margin-right: 0.5rem;
-  transition: all 0.25s ease-out;
 }
-.projects .container .container_item .item .image img:hover {
-  background-color: rgba(255, 255, 255, 0.112);
+.projects .container .container_item .item .image a {
+  display: inline-block;
+  position: relative;
+  line-height: normal;
+}
+.projects .container .container_item .item .image a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F9F9F9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.projects .container .container_item .item .image a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .projects .container .container_item .item .image p {
   font-weight: 600;
@@ -359,6 +382,33 @@ h3 {
   padding: 5rem 7rem;
   position: relative;
 }
+.about .container p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 120%;
+}
+.about .container a {
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  line-height: normal;
+}
+.about .container a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F9F9F9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.about .container a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .about .container .text-img-container {
   max-width: 600px;
   margin-top: 4rem;
@@ -366,7 +416,8 @@ h3 {
 }
 .about .container .text-img-container .about-text {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 120%;
 }
 .about .container .text-img-container .img {
   position: absolute;
@@ -394,9 +445,6 @@ h3 {
 }
 .about .container .text-img-container .icon-container a img {
   max-width: 40px;
-}
-.about footer {
-  margin-top: 5%;
 }
 .about footer .line {
   width: 100%;

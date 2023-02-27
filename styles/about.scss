@@ -12,6 +12,39 @@
     .container{
       padding: 5rem 7rem;
       position: relative;
+      
+      p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 120%;
+      }
+
+      a{
+        font-weight: 600;
+        display: inline-block;
+        position: relative;
+        line-height: normal;
+      }
+
+
+      a:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $white;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      
+      a:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
 
       .text-img-container{
         max-width: 600px;
@@ -20,9 +53,10 @@
      
         .about-text{
           font-size: 20px;
-          
-          font-weight: 400;
+          font-weight: 300;
+          line-height: 120%;
         }
+
         .img{
           position: absolute;
           left: 70%;
@@ -61,8 +95,6 @@
     }
     
     footer{
-
-      margin-top: 05%;
 
       .line{
         width: 100%;

@@ -88,4 +88,11 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-LightLC.otf") format("opentype"), url("/assets/font/Thunder-LightLC.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
 // Fin import font
