@@ -1,0 +1,91 @@
+// import font
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-LC.otf") format("opentype"), url("/assets/font/Thunder-LC.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-LCItalic.otf") format("opentype"), url("/assets/font/Thunder-LCItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-BoldLC.otf") format("opentype"), url("/assets/font/Thunder-BoldLC.woff2") format("woff2");
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-BoldLCItalic.otf") format("opentype"), url("/assets/font/Thunder-BoldLCItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-BlackLC.otf") format("opentype"), url("/assets/font/Thunder-BlackLC.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-SemiBoldLC.otf") format("opentype"), url("/assets/font/Thunder-SemiBoldLC.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-MediumLC.otf") format("opentype"), url("/assets/font/Thunder-MediumLC.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-MediumLCItalic.otf") format("opentype"), url("/assets/font/Thunder-MediumLCItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-ExtraLightLC.otf") format("opentype"), url("/assets/font/Thunder-ExtraLightLC.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-LCItalic.otf") format("opentype"), url("/assets/font/Thunder-LCItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: url("/assets/font/Thunder-LightLCItalic.otf") format("opentype"), url("/assets/font/Thunder-LightLCItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+// Fin import font

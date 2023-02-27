@@ -1,0 +1,119 @@
+/* Partie compétences */
+
+.skills{
+    background-color: $green;
+    background-image: url("/assets/image/Grain5.png");
+    height: 115vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 3;
+
+    .container{
+
+      padding: 3rem 7rem;
+      position: relative;
+
+    .slideshow-container {
+      position: relative;
+      margin-top: 4rem;
+
+      h4{
+        font-size: 26px;
+        font-weight: 500;
+      }
+      
+      .slide {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        li{
+          display: flex;
+          align-items: center;
+          margin-top: 1.5rem;
+
+          img{
+            width: 50px;
+            object-fit: cover;
+            margin-right: 1rem;      
+          }
+          p{
+            font-size: 18px;
+            font-weight: 400;
+          }
+          
+        }
+
+        .language{
+          font-size: 22px;
+          font-weight: 400;
+          width: 100%;
+
+          td{
+            padding-top: 5rem;
+          }
+          .light-font{
+          font-weight: 300;
+          }
+        }
+      }
+
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        margin: 2rem 7rem;
+        padding: 2rem 2rem;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.2s ease;
+        user-select: none;
+      }
+      
+      .next {
+        right: 0;
+      }
+
+      .prev:hover, .next:hover {
+        color: #848484;
+      }
+    }
+    .text {
+      color: #f2f2f2;
+      font-size: 26px;
+      position: absolute;
+      bottom: -20%;
+      width: 100%;
+      text-align: center;
+    }
+
+    .indicator {
+      cursor: pointer;
+      height: 2px;
+      width: 25px;
+      margin: 0 5px;
+      background-color: #f9f9f951;
+      display: inline-block;
+      transition: all 0.6s linear;
+    }
+    
+    .active, .indicator:hover {
+      background-color: $white;
+      height: 6px;
+      width: 25px;
+      
+    }
+    
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+  }
+}

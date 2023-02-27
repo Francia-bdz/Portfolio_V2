@@ -1,0 +1,89 @@
+/* Partie projet */
+
+.projects {
+    background-color: $orange;
+    background-image: url("/assets/image/Grain5.png");
+    height: 115vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 2;
+
+    .container {
+
+        padding: 3rem 7rem;
+        position: relative;
+
+        .container_item {
+
+            margin-top: 2rem;
+
+            .item {
+                width: 550px;
+
+                .title {
+                    font-weight: 400;
+                    font-size: 40px;
+                    margin-bottom: 1rem;
+                    display: inline-block;
+                    position: relative;
+                    line-height: normal;
+                }
+
+                .title:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: $white;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                  }
+                  
+                  .title:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                  }
+
+                p {
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 125%;
+
+                    .bold {
+                        font-weight: bold;
+                    }
+                }
+
+                .image {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 1rem;
+
+                    img {
+                        max-width: 44px;
+                        margin-right: 0.5rem;
+                        transition: all 0.25s ease-out;
+                    }
+
+                    img:hover{
+                        background-color: rgba(255, 255, 255, 0.112);
+                    }
+
+                    p{
+                        font-weight: 600;
+                    }
+                }
+
+            }
+
+            .item_right {
+                margin: -5% 0 -5% 60%;
+
+            }
+        }
+    }
+}

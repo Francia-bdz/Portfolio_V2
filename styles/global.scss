@@ -1,0 +1,49 @@
+//Définition du theme
+
+//Typographie
+$font-stack: 'Thunder';
+
+//Couleur
+$blue: #002FA7;
+$white: #F9F9F9;
+$orange: #DA7E10;
+$green: #007744;
+
+// Normes portfolio
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: $font-stack;
+    color: $white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 128px;
+    font-weight: 900;
+    letter-spacing: 8px;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}

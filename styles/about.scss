@@ -1,0 +1,81 @@
+/* Partie à propos */
+
+.about{
+    background-color: $blue;
+    background-image: url("/assets/image/Grain.png");
+    height: 100vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 4;
+
+    .container{
+      padding: 5rem 7rem;
+      position: relative;
+
+      .text-img-container{
+        max-width: 600px;
+        margin-top: 4rem;
+        display: flex;
+     
+        .about-text{
+          font-size: 20px;
+          
+          font-weight: 400;
+        }
+        .img{
+          position: absolute;
+          left: 70%;
+
+          img{
+            position: absolute;
+            max-width: 250px;
+            rotate: 10deg;
+          }
+          
+          .square{
+            position: absolute;
+            border: 2px solid $white;
+            width: 250px;
+            height: 250px;
+            rotate: -2deg;
+            
+          }
+
+        }
+        .icon-container{
+          margin: 5% 0;
+          display: flex;
+          justify-content: center;
+
+          a{
+            margin: 0 1%;
+
+            img{
+              max-width: 40px;
+            }
+          }
+        }
+      }
+
+    }
+    
+    footer{
+
+      margin-top: 05%;
+
+      .line{
+        width: 100%;
+        height: 2px;
+        background-color: #f2f2f2;
+      }
+
+      .legals{
+        padding-left: 7rem;
+        padding-top: 2rem;
+        font-size: 18px;
+      }
+    }
+
+    
+}
