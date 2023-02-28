@@ -322,6 +322,27 @@ h3 {
   font-weight: 400;
   width: 100%;
 }
+.skills .container .slideshow-container .slide .language a {
+  display: inline-block;
+  position: relative;
+  line-height: normal;
+}
+.skills .container .slideshow-container .slide .language a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F9F9F9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.skills .container .slideshow-container .slide .language a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .skills .container .slideshow-container .slide .language td {
   padding-top: 5rem;
 }
