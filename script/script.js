@@ -24,7 +24,7 @@ typewriter
 const text = document.querySelector('.scroll-text p');
 text.innerHTML = text.innerText.split("").map(
     (char, i) =>
-        `<span style="transform:rotate(${i * 8.2}deg)">${char}</span>`
+        `<span style="transform:rotate(${i * 8}deg)">${char}</span>`
 ).join("")
 
 //Slider
