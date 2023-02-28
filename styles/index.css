@@ -179,8 +179,8 @@ body {
   line-height: 2px;
   font-weight: 500;
   position: absolute;
-  top: 40px;
-  left: 1000%;
+  top: 0px;
+  left: 980%;
   animation: rotateText 15s linear infinite;
 }
 @keyframes rotateText {
