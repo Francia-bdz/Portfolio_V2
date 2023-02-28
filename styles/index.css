@@ -121,6 +121,14 @@ h3 {
   margin-top: 0.5rem;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 600;
+}
+
 /* Partie accueil */
 .home {
   background-color: #002FA7;
