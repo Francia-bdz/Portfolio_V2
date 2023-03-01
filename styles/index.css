@@ -121,7 +121,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5vw;
+  font-size: 2.5vh;
   font-style: italic;
   font-weight: 300;
   margin-top: 0.5rem;
@@ -151,18 +151,18 @@ body {
   z-index: 1;
 }
 .home .container {
-  padding: 7rem 7rem;
+  padding: 15vh 15vh;
   position: relative;
 }
 .home .container li {
   margin-bottom: 3%;
 }
 .home .container .function {
-  font-size: 128px;
+  font-size: 16.5vh;
   font-weight: bold;
 }
 .home .container .adjective {
-  font-size: 128px;
+  font-size: 16.5vh;
   font-weight: bold;
 }
 .home .container .adjective span {
