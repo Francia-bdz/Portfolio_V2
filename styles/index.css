@@ -149,7 +149,6 @@ body {
   position: -webkit-sticky;
   top: 0;
   z-index: 1;
-  overflow: hidden;
 }
 .home .container {
   padding: 8% 8%;
