@@ -220,15 +220,15 @@ body {
   position: relative;
 }
 .projects .container .container_item {
-  margin-top: 2rem;
+  margin-top: 2.5%;
 }
 .projects .container .container_item .item {
-  width: 550px;
+  width: 45%;
 }
 .projects .container .container_item .item .title {
   font-weight: 400;
-  font-size: 40px;
-  margin-bottom: 1rem;
+  font-size: 250%;
+  margin-bottom: 2%;
   display: inline-block;
   position: relative;
   line-height: normal;
@@ -238,7 +238,7 @@ body {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 4%;
   bottom: 0;
   left: 0;
   background-color: #F9F9F9;
@@ -250,7 +250,7 @@ body {
   transform-origin: bottom left;
 }
 .projects .container .container_item .item p {
-  font-size: 20px;
+  font-size: 125%;
   font-weight: 400;
   line-height: 125%;
 }
@@ -260,9 +260,9 @@ body {
 .projects .container .container_item .item .image {
   display: flex;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 3%;
   justify-content: space-between;
-  max-width: 90px;
+  max-width: 16%;
 }
 .projects .container .container_item .item .image img {
   max-width: 40px;
@@ -277,7 +277,7 @@ body {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 4%;
   bottom: 0;
   left: 0;
   background-color: #F9F9F9;
@@ -287,9 +287,6 @@ body {
 .projects .container .container_item .item .image a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-.projects .container .container_item .item .image p {
-  font-weight: 600;
 }
 .projects .container .container_item .item_right {
   margin: -5% 0 -5% 60%;
