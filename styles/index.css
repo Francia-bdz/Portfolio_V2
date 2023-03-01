@@ -216,7 +216,7 @@ body {
   z-index: 2;
 }
 .projects .container {
-  padding: 3rem 7rem;
+  padding: 3% 7%;
   position: relative;
 }
 .projects .container .container_item {
@@ -306,7 +306,7 @@ body {
   z-index: 3;
 }
 .skills .container {
-  padding: 3rem 7rem;
+  padding: 4% 7%;
   position: relative;
 }
 .skills .container .slideshow-container {
@@ -433,7 +433,7 @@ body {
   z-index: 4;
 }
 .about .container {
-  padding: 5rem 7rem;
+  padding: 4% 7%;
   position: relative;
 }
 .about .container p {
