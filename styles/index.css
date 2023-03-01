@@ -100,22 +100,28 @@ li {
 }
 
 p {
-  letter-spacing: 1px;
+  letter-spacing: 0.06rem;
 }
 
 h1 {
-  font-size: 128px;
+  font-size: 800%;
   font-weight: 900;
-  letter-spacing: 8px;
+  letter-spacing: 0.5rem;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+  }
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 300%;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 130%;
   font-style: italic;
   font-weight: 300;
   margin-top: 0.5rem;
@@ -145,42 +151,43 @@ body {
   z-index: 1;
 }
 .home .container {
-  padding: 7rem 7rem;
+  padding: 8% 8%;
   position: relative;
 }
 .home .container li {
   margin-bottom: 3%;
 }
 .home .container .function {
-  font-size: 128px;
+  font-size: 800%;
   font-weight: bold;
 }
 .home .container .adjective {
-  font-size: 128px;
+  font-size: 800%;
   font-weight: bold;
 }
 .home .container .adjective span {
   color: rgba(0, 0, 0, 0);
 }
 .home .container .circle {
-  position: relative;
+  position: absolute;
   width: 110px;
   height: 110px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 85%;
+  top: 85%;
 }
 .home .container .scroll-text {
   width: 100%;
   height: 100%;
   align-items: center;
-  font-size: 16px;
+  font-size: 100%;
   line-height: 2px;
   font-weight: 500;
   position: absolute;
   top: 0px;
-  left: 980%;
   animation: rotateText 15s linear infinite;
 }
 @keyframes rotateText {
@@ -209,7 +216,7 @@ body {
   z-index: 2;
 }
 .projects .container {
-  padding: 3rem 7rem;
+  padding: 3% 7%;
   position: relative;
 }
 .projects .container .container_item {
@@ -299,7 +306,7 @@ body {
   z-index: 3;
 }
 .skills .container {
-  padding: 3rem 7rem;
+  padding: 4% 7%;
   position: relative;
 }
 .skills .container .slideshow-container {
@@ -426,7 +433,7 @@ body {
   z-index: 4;
 }
 .about .container {
-  padding: 5rem 7rem;
+  padding: 4% 7%;
   position: relative;
 }
 .about .container p {
