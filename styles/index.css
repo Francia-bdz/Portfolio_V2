@@ -179,7 +179,7 @@ body {
   left: 85%;
   top: 85%;
 }
-@media screen and (min-width: 1090px) and (max-width: 1080px) {
+@media screen and (min-width: 1090px) {
   .home .container .circle {
     top: 70%;
   }
