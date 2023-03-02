@@ -179,7 +179,7 @@ body {
   left: 85%;
   top: 85%;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 1080px) {
   .home .container .circle {
     top: 100%;
   }
