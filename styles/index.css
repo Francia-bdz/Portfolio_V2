@@ -87,7 +87,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: "Thunder";
+  font-family: "Thunder", Arial, Helvetica, sans-serif;
   color: #F9F9F9;
 }
 
@@ -178,6 +178,11 @@ body {
   align-items: center;
   left: 85%;
   top: 85%;
+}
+@media only screen and (min-width: 1440px) {
+  .home .container .circle {
+    top: 100%;
+  }
 }
 .home .container .scroll-text {
   width: 100%;

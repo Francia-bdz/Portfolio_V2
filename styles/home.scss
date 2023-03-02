@@ -40,7 +40,12 @@
                 justify-content: center;
                 align-items: center;
                 left: 85%;
-                top: 85%
+                top: 85%;
+
+                @media only screen and (min-width: 1440px){
+                    top:100%;
+                }
+
             }
               
               .scroll-text{
