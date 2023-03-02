@@ -1,65 +1,65 @@
 /* Partie compétences */
 
-.skills{
-    background-color: $green;
-    background-image: url("/assets/image/Grain5.png");
-    height: 115vh;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 3;
+.skills {
+  background-color: $green;
+  background-image: url("/assets/image/Grain5.png");
+  height: 115vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 3;
 
-    .container{
+  .container {
 
-      padding: 4% 7%;
-      position: relative;
+    padding: 4% 7%;
+    position: relative;
 
     .slideshow-container {
       position: relative;
       margin-top: 4rem;
 
-      h4{
+      h4 {
         font-size: 26px;
         font-weight: 500;
         margin-bottom: 20%;
       }
-      
+
       .slide {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         height: 350px;
 
-        li{
+        li {
           display: flex;
           align-items: center;
           margin-top: 1.5rem;
 
-          img{
-          width: 40px;
+          img {
+            width: 40px;
             // object-fit: cover;
-            margin-right: 1rem;      
+            margin-right: 1rem;
           }
 
-          p{
+          p {
             font-size: 20px;
             font-weight: 400;
           }
-          
+
         }
 
-        .language{
+        .language {
           font-size: 22px;
           font-weight: 400;
           width: 100%;
 
-          a{
+          a {
             display: inline-block;
             position: relative;
             line-height: normal;
-        }
-        
-        a:after {
+          }
+
+          a:after {
             content: '';
             position: absolute;
             width: 100%;
@@ -71,22 +71,24 @@
             transform-origin: bottom right;
             transition: transform 0.25s ease-out;
           }
-          
-        a:hover:after {
+
+          a:hover:after {
             transform: scaleX(1);
             transform-origin: bottom left;
           }
 
-          td{
+          td {
             padding-top: 5rem;
           }
-          .light-font{
-          font-weight: 300;
+
+          .light-font {
+            font-weight: 300;
           }
         }
       }
 
-      .prev, .next {
+      .prev,
+      .next {
         cursor: pointer;
         position: absolute;
         width: auto;
@@ -98,15 +100,17 @@
         transition: 0.2s ease;
         user-select: none;
       }
-      
+
       .next {
         right: 0;
       }
 
-      .prev:hover, .next:hover {
+      .prev:hover,
+      .next:hover {
         color: #848484;
       }
     }
+
     .text {
       color: #f2f2f2;
       font-size: 26px;
@@ -125,22 +129,28 @@
       display: inline-block;
       transition: all 0.6s linear;
     }
-    
-    .active, .indicator:hover {
+
+    .active,
+    .indicator:hover {
       background-color: $white;
       height: 6px;
       width: 25px;
-      
+
     }
-    
+
     .fade {
       animation-name: fade;
       animation-duration: 1.5s;
     }
-    
+
     @keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
     }
   }
 }

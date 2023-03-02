@@ -1,6 +1,6 @@
 /* Partie accueil */
 
-.home{
+.home {
     background-color: $blue;
     background-image: url("/assets/image/Grain.png");
     height: 100vh;
@@ -8,76 +8,76 @@
     position: -webkit-sticky;
     top: 0;
     z-index: 1;
-        .container{
 
-            padding: 8% 8%;
-            position: relative;
+    .container {
 
-            li{
-              margin-bottom: 3%;
-            }
+        padding: 8% 8%;
+        position: relative;
 
-            .function{
-                font-size: 800%;
-                font-weight: bold;
-            }
+        li {
+            margin-bottom: 3%;
+        }
 
-            .adjective{
-                font-size: 800%;                
-                font-weight: bold;
-                
-                span{
-                  color: rgba(0, 0, 0, 0);   
-                }
-            }
+        .function {
+            font-size: 800%;
+            font-weight: bold;
+        }
 
-            .circle{
-                position: absolute;
-                width: 110px;
-                height: 110px;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                left: 85%;
-                top: 85%;
+        .adjective {
+            font-size: 800%;
+            font-weight: bold;
 
-                @media screen and (min-width: 1090px){
-                    top:70%;
-                }
-
-            }
-              
-              .scroll-text{
-                width: 100%;
-                height: 100%;
-                align-items: center;
-                font-size: 100%;
-                line-height: 2px;
-                font-weight: 500;
-                position: absolute;
-                top: 0px;
-                animation: rotateText 15s linear infinite;
-                @keyframes rotateText 
-            {
-             
-                        0% 
-                        {
-                            transform: rotate(360deg);
-                        }
-                        100%
-                        {
-                            transform: rotate(0deg);
-                        }
-                    
-                }
-
-                span{
-                    position: absolute;
-                    left: 50%;
-                    font-size: 1.2rem;
-                    transform-origin: 0 55px;
-                }
+            span {
+                color: rgba(0, 0, 0, 0);
             }
         }
+
+        .circle {
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            left: 85%;
+            top: 85%;
+
+            @media screen and (min-width: 1090px) {
+                top: 75%;
+            }
+
+        }
+
+        .scroll-text {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            font-size: 100%;
+            line-height: 2px;
+            font-weight: 500;
+            position: absolute;
+            top: 0px;
+            animation: rotateText 15s linear infinite;
+
+            @keyframes rotateText {
+
+                0% {
+                    transform: rotate(360deg);
+                }
+
+                100% {
+                    transform: rotate(0deg);
+                }
+
+            }
+
+            span {
+                position: absolute;
+                left: 50%;
+                font-size: 1.2rem;
+                transform-origin: 0 55px;
+            }
+        }
+    }
 }

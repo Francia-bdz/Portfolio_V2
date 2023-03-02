@@ -181,7 +181,7 @@ body {
 }
 @media screen and (min-width: 1090px) {
   .home .container .circle {
-    top: 70%;
+    top: 75%;
   }
 }
 .home .container .scroll-text {
@@ -371,7 +371,8 @@ body {
 .skills .container .slideshow-container .slide .language .light-font {
   font-weight: 300;
 }
-.skills .container .slideshow-container .prev, .skills .container .slideshow-container .next {
+.skills .container .slideshow-container .prev,
+.skills .container .slideshow-container .next {
   cursor: pointer;
   position: absolute;
   width: auto;
@@ -386,7 +387,8 @@ body {
 .skills .container .slideshow-container .next {
   right: 0;
 }
-.skills .container .slideshow-container .prev:hover, .skills .container .slideshow-container .next:hover {
+.skills .container .slideshow-container .prev:hover,
+.skills .container .slideshow-container .next:hover {
   color: #848484;
 }
 .skills .container .text {
@@ -406,7 +408,8 @@ body {
   display: inline-block;
   transition: all 0.6s linear;
 }
-.skills .container .active, .skills .container .indicator:hover {
+.skills .container .active,
+.skills .container .indicator:hover {
   background-color: #F9F9F9;
   height: 6px;
   width: 25px;

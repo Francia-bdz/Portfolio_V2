@@ -1,113 +1,114 @@
 /* Partie à propos */
 
-.about{
-    background-color: $blue;
-    background-image: url("/assets/image/Grain.png");
-    height: 100vh;
-    position: sticky;
-    position: -webkit-sticky;
-    top:0;
-    z-index: 4;
+.about {
+  background-color: $blue;
+  background-image: url("/assets/image/Grain.png");
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 4;
 
-    .container{
-      padding: 4% 7%;
+  .container {
+    padding: 4% 7%;
+    position: relative;
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 120%;
+    }
+
+    a {
+      font-weight: 600;
+      display: inline-block;
       position: relative;
-      
-      p{
+      line-height: normal;
+    }
+
+
+    a:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: $white;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    a:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+
+    .text-img-container {
+      max-width: 600px;
+      margin-top: 4rem;
+      display: flex;
+
+      .about-text {
         font-size: 20px;
         font-weight: 300;
         line-height: 120%;
       }
 
-      a{
-        font-weight: 600;
-        display: inline-block;
-        position: relative;
-        line-height: normal;
-      }
-
-
-      a:after {
-        content: '';
+      .img {
         position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: $white;
-        transform-origin: bottom right;
-        transition: transform 0.25s ease-out;
-      }
-      
-      a:hover:after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-      }
+        left: 70%;
 
-
-      .text-img-container{
-        max-width: 600px;
-        margin-top: 4rem;
-        display: flex;
-     
-        .about-text{
-          font-size: 20px;
-          font-weight: 300;
-          line-height: 120%;
-        }
-
-        .img{
+        img {
           position: absolute;
-          left: 70%;
+          max-width: 250px;
+          rotate: 10deg;
+        }
 
-          img{
-            position: absolute;
-            max-width: 250px;
-            rotate: 10deg;
-          }
-          
-          .square{
-            position: absolute;
-            border: 2px solid $white;
-            width: 250px;
-            height: 250px;
-            rotate: -2deg;
-            
-          }
+        .square {
+          position: absolute;
+          border: 2px solid $white;
+          width: 250px;
+          height: 250px;
+          rotate: -2deg;
 
         }
-        .icon-container{
-          margin: 5% 0;
-          display: flex;
-          justify-content: center;
 
-          a{
-            margin: 0 1%;
+      }
 
-            img{
-              max-width: 40px;
-            }
+      .icon-container {
+        margin: 5% 0;
+        display: flex;
+        justify-content: center;
+
+        a {
+          margin: 0 1%;
+
+          img {
+            max-width: 40px;
           }
         }
       }
-
-    }
-    
-    footer{
-
-      .line{
-        width: 100%;
-        height: 2px;
-        background-color: #f2f2f2;
-      }
-
-      .legals{
-        padding-left: 7rem;
-        padding-top: 2rem;
-        font-size: 18px;
-      }
     }
 
-    
+  }
+
+  footer {
+
+    .line {
+      width: 100%;
+      height: 2px;
+      background-color: #f2f2f2;
+    }
+
+    .legals {
+      padding-left: 7rem;
+      padding-top: 2rem;
+      font-size: 18px;
+    }
+  }
+
+
 }
