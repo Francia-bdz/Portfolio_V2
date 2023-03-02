@@ -8,6 +8,9 @@
   position: -webkit-sticky;
   top: 0;
   z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
   .container {
     padding: 4% 7%;
@@ -104,8 +107,9 @@
     }
 
     .legals {
-      padding-left: 7rem;
+      padding-left: 6.5rem;
       padding-top: 2rem;
+      padding-bottom: 2rem;
       font-size: 18px;
     }
   }
