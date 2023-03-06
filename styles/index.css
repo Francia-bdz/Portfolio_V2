@@ -226,7 +226,7 @@ body {
 }
 @media screen and (max-width: 425px) {
   .home .container .circle {
-    left: 40%;
+    left: 35%;
     margin-top: 40%;
   }
 }
@@ -392,6 +392,11 @@ body {
     height: auto;
   }
 }
+@media screen and (max-width: 425px) {
+  .skills {
+    padding-bottom: 5%;
+  }
+}
 .skills .container {
   padding: 4% 7%;
   position: relative;
@@ -405,11 +410,26 @@ body {
   font-weight: 500;
   margin-bottom: 20%;
 }
+@media screen and (max-width: 425px) {
+  .skills .container .slideshow-container h4 {
+    margin-bottom: 4%;
+  }
+}
 .skills .container .slideshow-container .slide {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 350px;
+}
+@media screen and (max-width: 425px) {
+  .skills .container .slideshow-container .slide {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .skills .container .slideshow-container .slide .tools {
+    margin-bottom: 10%;
+  }
 }
 .skills .container .slideshow-container .slide li {
   display: flex;
@@ -423,6 +443,16 @@ body {
 .skills .container .slideshow-container .slide li p {
   font-size: 20px;
   font-weight: 400;
+}
+@media screen and (max-width: 425px) {
+  .skills .container .slideshow-container .slide table {
+    display: none;
+  }
+}
+@media screen and (min-width: 425px) {
+  .skills .container .slideshow-container .slide .list_languages {
+    display: none;
+  }
 }
 .skills .container .slideshow-container .slide .language {
   font-size: 22px;
@@ -469,6 +499,13 @@ body {
   transition: 0.2s ease;
   user-select: none;
 }
+@media screen and (max-width: 425px) {
+  .skills .container .slideshow-container .prev,
+  .skills .container .slideshow-container .next {
+    margin: 0 0;
+    padding: 1rem 1rem;
+  }
+}
 .skills .container .slideshow-container .next {
   right: 0;
 }
@@ -483,6 +520,12 @@ body {
   bottom: -20%;
   width: 100%;
   text-align: center;
+}
+@media screen and (max-width: 425px) {
+  .skills .container .text {
+    margin-top: 5%;
+    position: relative;
+  }
 }
 .skills .container .indicator {
   cursor: pointer;
