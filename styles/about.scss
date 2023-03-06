@@ -12,6 +12,12 @@
   justify-content: space-between;
   flex-direction: column;
 
+  @media screen and (max-width: 1000px) {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+}
+
   .container {
     padding: 4% 7%;
     position: relative;
@@ -53,6 +59,11 @@
       max-width: 600px;
       margin-top: 4rem;
       display: flex;
+      @media screen and (max-width: 768px) {
+      flex-direction: column;
+
+    }
+    
 
       .about-text {
         font-size: 20px;
@@ -60,10 +71,17 @@
         line-height: 120%;
       }
 
+
       .img {
         position: absolute;
         left: 70%;
+        
+        @media screen and (max-width: 768px) {
+          position: relative;
+          left: auto;
 
+      }
+      
         img {
           position: absolute;
           max-width: 250px;

@@ -114,6 +114,11 @@ h1 {
     letter-spacing: 0.3rem;
   }
 }
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 50px;
+  }
+}
 
 h2 {
   font-size: 300%;
@@ -150,9 +155,22 @@ body {
   top: 0;
   z-index: 1;
 }
+@media screen and (max-width: 1000px) {
+  .home {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+  }
+}
 .home .container {
   padding: 8% 8%;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .home .container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .home .container li {
   margin-bottom: 3%;
@@ -161,9 +179,19 @@ body {
   font-size: 800%;
   font-weight: bold;
 }
+@media screen and (max-width: 425px) {
+  .home .container .function {
+    font-size: 50px;
+  }
+}
 .home .container .adjective {
   font-size: 800%;
   font-weight: bold;
+}
+@media screen and (max-width: 425px) {
+  .home .container .adjective {
+    font-size: 50px;
+  }
 }
 .home .container .adjective span {
   color: rgba(0, 0, 0, 0);
@@ -173,15 +201,22 @@ body {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   left: 85%;
   top: 85%;
 }
 @media screen and (min-width: 1450px) {
   .home .container .circle {
     top: 75%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home .container .circle {
+    position: relative;
+  }
+}
+@media screen and (max-width: 425px) {
+  .home .container .circle {
+    left: 50%;
   }
 }
 .home .container .scroll-text {
@@ -220,6 +255,13 @@ body {
   top: 0;
   z-index: 2;
 }
+@media screen and (max-width: 1000px) {
+  .projects {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+  }
+}
 .projects .container {
   padding: 3% 7%;
   position: relative;
@@ -239,6 +281,11 @@ body {
 }
 .projects .container .container_item .item {
   width: 45%;
+}
+@media screen and (max-width: 760px) {
+  .projects .container .container_item .item {
+    width: auto;
+  }
 }
 .projects .container .container_item .item .title {
   font-weight: 400;
@@ -311,6 +358,11 @@ body {
     margin: -7% 0 -7% 60%;
   }
 }
+@media screen and (max-width: 760px) {
+  .projects .container .container_item .item_right {
+    margin: 5% 0;
+  }
+}
 
 /* Partie compétences */
 .skills {
@@ -321,6 +373,13 @@ body {
   position: -webkit-sticky;
   top: 0;
   z-index: 3;
+}
+@media screen and (max-width: 1000px) {
+  .skills {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+  }
 }
 .skills .container {
   padding: 4% 7%;
@@ -455,6 +514,13 @@ body {
   justify-content: space-between;
   flex-direction: column;
 }
+@media screen and (max-width: 1000px) {
+  .about {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+  }
+}
 .about .container {
   padding: 4% 7%;
   position: relative;
@@ -491,6 +557,11 @@ body {
   margin-top: 4rem;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .about .container .text-img-container {
+    flex-direction: column;
+  }
+}
 .about .container .text-img-container .about-text {
   font-size: 20px;
   font-weight: 300;
@@ -499,6 +570,12 @@ body {
 .about .container .text-img-container .img {
   position: absolute;
   left: 70%;
+}
+@media screen and (max-width: 768px) {
+  .about .container .text-img-container .img {
+    position: relative;
+    left: auto;
+  }
 }
 .about .container .text-img-container .img img {
   position: absolute;

@@ -9,6 +9,11 @@
     top: 0;
     z-index: 2;
 
+    @media screen and (max-width: 1000px) {
+        position: relative;
+        position: -webkit-relative;
+        height: auto;
+    }
     .container {
 
         padding: 3% 7%;
@@ -28,6 +33,10 @@
 
             .item {
                 width: 45%;
+                @media screen and (max-width: 760px) {
+                    width: auto;
+                }
+                    
 
                 .title {
                     font-weight: 400;
@@ -107,9 +116,14 @@
 
             .item_right {
                 margin: -5% 0 -5% 60%;
+
                 @media screen and (min-width: 1450px) {
                 margin: -7% 0 -7% 60%;
                 }
+                @media screen and (max-width: 760px) {
+                margin: 5% 0;
+                }
+                
 
             }
         }

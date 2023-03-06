@@ -9,6 +9,12 @@
   top: 0;
   z-index: 3;
 
+  @media screen and (max-width: 1000px) {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+}
+
   .container {
 
     padding: 4% 7%;

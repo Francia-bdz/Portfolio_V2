@@ -8,13 +8,13 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .typeString('<span style="color: #DA7E10; background-color:#F9F9F9;padding: 1.25rem 1.25rem 0px 1.25rem;">JUNIOR.</span>')
+  .typeString('<span style="color: #DA7E10; background-color:#F9F9F9;padding: 2% 2% 0px 2%;">JUNIOR.</span>')
   .pauseFor(3000)
   .deleteChars(10)
-  .typeString('<span style="color: #007744; background-color:#F9F9F9;padding: 1.25rem 1.25rem 0px 1.25rem;">FULL-STACK.</span>')
+  .typeString('<span style="color: #007744; background-color:#F9F9F9;padding: 2% 2% 0px 2%;">FULL-STACK.</span>')
   .pauseFor(3000)
   .deleteChars(12)
-  .typeString('<span style="color: #002FA7;background-color:#F9F9F9;padding: 1.25rem 1.25rem 0px 1.25rem;">CRÉA.</span>')
+  .typeString('<span style="color: #002FA7;background-color:#F9F9F9;padding: 2% 2% 0px 2%;">CRÉA.</span>')
   .pauseFor(3000)
   .deleteChars(5)
 .start();

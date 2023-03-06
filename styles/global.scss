@@ -40,6 +40,10 @@ h1 {
         letter-spacing: 0.3rem;
     }
 
+    @media screen and (max-width: 425px) {
+        font-size: 50px;
+    }
+
 }
 
 h2 {
