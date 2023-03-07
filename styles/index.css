@@ -178,6 +178,12 @@ body {
     height: auto;
   }
 }
+@media screen and (max-width: 425px) {
+  .home {
+    position: sticky;
+    position: -webkit-sticky;
+  }
+}
 .home .container {
   padding: 8% 8%;
   position: relative;
@@ -287,6 +293,12 @@ body {
     position: relative;
     position: -webkit-relative;
     height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .projects {
+    position: sticky;
+    position: -webkit-sticky;
   }
 }
 .projects .container {
@@ -437,6 +449,8 @@ body {
 @media screen and (max-width: 425px) {
   .skills {
     padding: 7% 7%;
+    position: sticky;
+    position: -webkit-sticky;
   }
 }
 .skills .container {
@@ -618,6 +632,8 @@ body {
 @media screen and (max-width: 425px) {
   .about {
     padding: 7% 7%;
+    position: sticky;
+    position: -webkit-sticky;
   }
 }
 @media screen and (max-width: 1000px) {
