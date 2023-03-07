@@ -14,18 +14,13 @@
 
   @media screen and (max-width: 425px) {
     padding: 7% 7%;
-    position: sticky;
-    position: -webkit-sticky;
   }
-
-
 
   @media screen and (max-width: 1000px) {
     position: relative;
     position: -webkit-relative;
     height: auto;
   }
-
 
   .container {
     padding: 4% 7%;
