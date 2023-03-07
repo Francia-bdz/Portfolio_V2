@@ -12,11 +12,16 @@
   justify-content: space-between;
   flex-direction: column;
 
+  @media screen and (max-width: 425px) {
+    padding: 7% 7%;
+  }
+
   @media screen and (max-width: 1000px) {
     position: relative;
     position: -webkit-relative;
     height: auto;
-}
+  }
+
 
   .container {
     padding: 4% 7%;
@@ -59,11 +64,12 @@
       max-width: 600px;
       margin-top: 4rem;
       display: flex;
-      @media screen and (max-width: 768px) {
-      flex-direction: column;
 
-    }
-    
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+
+      }
+
 
       .about-text {
         font-size: 20px;
@@ -76,15 +82,16 @@
         position: absolute;
         left: 70%;
         transform: translateX(10%);
+
         margin-top: 10%;
         margin-bottom: 90%;
-        
+
         @media screen and (max-width: 768px) {
           position: relative;
           left: auto;
 
-      }
-      
+        }
+
         img {
           position: absolute;
           max-width: 250px;
@@ -124,13 +131,18 @@
     .line {
       width: 100%;
       height: 2px;
-      background-color: #f2f2f2;
+      background-color: $white;
+
+      @media screen and (max-width: 425px) {
+        display: none;
+      }
     }
 
     .legals {
 
-      padding: 2% 0 2% 7%; 
+      padding: 2% 0 2% 7%;
       font-size: 18px;
+
     }
   }
 

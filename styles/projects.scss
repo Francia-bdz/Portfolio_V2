@@ -21,6 +21,9 @@
         @media screen and (min-width: 1450px) {
             padding: 2.5% 7%;
         }
+        @media screen and (max-width: 425px) {
+            padding: 9% 7%;
+        }
 
         position: relative;
 
@@ -30,14 +33,20 @@
             @media screen and (min-width: 1450px) {
                 margin-top: 2%;
             }
-
+            @media screen and (max-width: 425px) {
+                margin-top: 10%;
+            }
+            
             .item {
                 width: 45%;
                 @media screen and (max-width: 760px) {
                     width: auto;
                 }
-                    
-
+                // @media screen and (max-width: 425px) {
+                //     margin-bottom: 10%;
+                // }
+                
+                
                 .title {
                     font-weight: 400;
                     font-size: 250%;
@@ -45,6 +54,10 @@
                     display: inline-block;
                     position: relative;
                     line-height: normal;
+                    @media screen and (max-width: 425px) {
+                        font-size: 210%;
+                    }
+
                 }
 
                 .title:after {
@@ -69,18 +82,27 @@
                     font-size: 125%;
                     font-weight: 400;
                     line-height: 125%;
+                    @media screen and (max-width: 425px) {
+                        font-size: 120%;
+                    }
 
                     .bold {
                         font-weight: bold;
                     }
+
                 }
 
                 .image {
                     display: flex;
                     align-items: center;
-                    margin-top: 3%;
+                    margin-top: 6%;
                     justify-content: space-between;
                     max-width: 16%;
+                    @media screen and (max-width: 425px) {
+                        margin: 5% auto;
+                        max-width: 30%;
+                        }
+
 
                     img {
                         max-width: 40px;
@@ -121,7 +143,7 @@
                 margin: -7% 0 -7% 60%;
                 }
                 @media screen and (max-width: 760px) {
-                margin: 5% 0;
+                margin: 15% 0;
                 }
                 
 

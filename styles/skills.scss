@@ -16,12 +16,15 @@
   }
 
   @media screen and (max-width: 425px) {
-    padding-bottom: 5%;
-  }
+    padding: 7% 7%;
+}
 
   .container {
 
     padding: 4% 7%;
+    @media screen and (max-width: 425px) {
+      padding: 0;
+  }
     position: relative;
 
     .slideshow-container {

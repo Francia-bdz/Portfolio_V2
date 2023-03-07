@@ -91,6 +91,12 @@
   color: #F9F9F9;
 }
 
+@media screen and (max-width: 425px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -124,12 +130,22 @@ h2 {
   font-size: 300%;
   font-weight: 600;
 }
+@media screen and (max-width: 425px) {
+  h2 {
+    font-size: 250%;
+  }
+}
 
 h3 {
   font-size: 130%;
   font-style: italic;
   font-weight: 300;
   margin-top: 0.5rem;
+}
+@media screen and (max-width: 425px) {
+  h3 {
+    font-size: 120%;
+  }
 }
 
 .italic {
@@ -282,12 +298,22 @@ body {
     padding: 2.5% 7%;
   }
 }
+@media screen and (max-width: 425px) {
+  .projects .container {
+    padding: 9% 7%;
+  }
+}
 .projects .container .container_item {
   margin-top: 2.5%;
 }
 @media screen and (min-width: 1450px) {
   .projects .container .container_item {
     margin-top: 2%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .projects .container .container_item {
+    margin-top: 10%;
   }
 }
 .projects .container .container_item .item {
@@ -305,6 +331,11 @@ body {
   display: inline-block;
   position: relative;
   line-height: normal;
+}
+@media screen and (max-width: 425px) {
+  .projects .container .container_item .item .title {
+    font-size: 210%;
+  }
 }
 .projects .container .container_item .item .title:after {
   content: "";
@@ -327,15 +358,26 @@ body {
   font-weight: 400;
   line-height: 125%;
 }
+@media screen and (max-width: 425px) {
+  .projects .container .container_item .item p {
+    font-size: 120%;
+  }
+}
 .projects .container .container_item .item p .bold {
   font-weight: bold;
 }
 .projects .container .container_item .item .image {
   display: flex;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 6%;
   justify-content: space-between;
   max-width: 16%;
+}
+@media screen and (max-width: 425px) {
+  .projects .container .container_item .item .image {
+    margin: 5% auto;
+    max-width: 30%;
+  }
 }
 .projects .container .container_item .item .image img {
   max-width: 40px;
@@ -371,7 +413,7 @@ body {
 }
 @media screen and (max-width: 760px) {
   .projects .container .container_item .item_right {
-    margin: 5% 0;
+    margin: 15% 0;
   }
 }
 
@@ -394,12 +436,17 @@ body {
 }
 @media screen and (max-width: 425px) {
   .skills {
-    padding-bottom: 5%;
+    padding: 7% 7%;
   }
 }
 .skills .container {
   padding: 4% 7%;
   position: relative;
+}
+@media screen and (max-width: 425px) {
+  .skills .container {
+    padding: 0;
+  }
 }
 .skills .container .slideshow-container {
   position: relative;
@@ -568,6 +615,11 @@ body {
   justify-content: space-between;
   flex-direction: column;
 }
+@media screen and (max-width: 425px) {
+  .about {
+    padding: 7% 7%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .about {
     position: relative;
@@ -660,7 +712,12 @@ body {
 .about footer .line {
   width: 100%;
   height: 2px;
-  background-color: #f2f2f2;
+  background-color: #F9F9F9;
+}
+@media screen and (max-width: 425px) {
+  .about footer .line {
+    display: none;
+  }
 }
 .about footer .legals {
   padding: 2% 0 2% 7%;

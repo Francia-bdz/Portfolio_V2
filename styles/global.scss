@@ -18,6 +18,12 @@ $green: #007744;
     color: $white;
 }
 
+html, body{
+    @media screen and (max-width: 425px) {
+        overflow-x: hidden;
+    }
+}
+
 a {
     text-decoration: none;
 }
@@ -43,12 +49,15 @@ h1 {
     @media screen and (max-width: 425px) {
         font-size: 70px;
     }
-
+    
 }
 
 h2 {
     font-size: 300%;
     font-weight: 600;
+    @media screen and (max-width: 425px) {
+        font-size: 250%;
+    }
 }
 
 h3 {
@@ -56,6 +65,9 @@ h3 {
     font-style: italic;
     font-weight: 300;
     margin-top: 0.5rem;
+    @media screen and (max-width: 425px) {
+        font-size: 120%;
+    }
 }
 
 .italic {
