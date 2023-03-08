@@ -686,6 +686,11 @@ body {
     left: auto;
   }
 }
+@media screen and (max-width: 425px) {
+  .about .container .text-img-container .img {
+    margin-top: 10%;
+  }
+}
 .about .container .text-img-container .img img {
   position: absolute;
   max-width: 250px;

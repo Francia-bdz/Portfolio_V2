@@ -84,6 +84,9 @@
           position: relative;
           left: auto;
         }
+        @media screen and (max-width: 425px) {
+          margin-top: 10%;
+        }
 
         img {
           position: absolute;
@@ -138,10 +141,8 @@
     }
 
     .legals {
-
       padding: 2% 0 2% 7%;
       font-size: 18px;
-
     }
   }
 
