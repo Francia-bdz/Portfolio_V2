@@ -691,12 +691,23 @@ body {
   max-width: 250px;
   rotate: 10deg;
 }
+@media screen and (max-width: 425px) {
+  .about .container .text-img-container .img img {
+    max-width: 200px;
+  }
+}
 .about .container .text-img-container .img .square {
   position: absolute;
   border: 2px solid #F9F9F9;
   width: 250px;
   height: 250px;
   rotate: -2deg;
+}
+@media screen and (max-width: 425px) {
+  .about .container .text-img-container .img .square {
+    width: 200px;
+    height: 200px;
+  }
 }
 .about .container .text-img-container .icon-container {
   margin: 5% 0;
