@@ -663,7 +663,7 @@ body {
   margin-top: 4rem;
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .about .container .text-img-container {
     flex-direction: column;
   }
@@ -678,15 +678,19 @@ body {
   left: 70%;
   margin-bottom: 90%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .about .container .text-img-container .img {
     position: relative;
     left: auto;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 960px) {
   .about .container .text-img-container .img {
     margin-top: 10%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .about .container .text-img-container .img {
     transform: translateX(10%);
   }
 }
