@@ -77,7 +77,6 @@
       .img {
         position: absolute;
         left: 70%;
-        transform: translateX(10%);
         margin-bottom: 90%;
         @media screen and (max-width: 768px) {
           position: relative;
@@ -85,6 +84,7 @@
         }
         @media screen and (max-width: 425px) {
           margin-top: 10%;
+          transform: translateX(10%);
         }
 
         img {

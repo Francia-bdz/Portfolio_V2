@@ -39,7 +39,7 @@
         .function {
             font-size: 800%;
             font-weight: bold;
-            @media screen and (max-width: 425px) {
+            @media screen and (max-width: 675px) {
                 font-size: 70px;
             }
         }
@@ -47,7 +47,7 @@
         .adjective {
             font-size: 800%;
             font-weight: bold;
-            @media screen and (max-width: 425px) {
+            @media screen and (max-width: 675px) {
                 font-size: 70px;
             }
             span {
@@ -71,7 +71,7 @@
                 position: relative;
             }
 
-            @media screen and (max-width: 425px) {
+            @media screen and (max-width: 675px) {
                 left: 35%;
                 margin-top: 40%;
             }
