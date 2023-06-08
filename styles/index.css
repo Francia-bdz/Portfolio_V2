@@ -546,7 +546,7 @@ body {
   transition: 0.2s ease;
   user-select: none;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 805px) {
   .skills .container .slideshow-container .prev,
   .skills .container .slideshow-container .next {
     margin: 0 0;
@@ -568,8 +568,14 @@ body {
   width: 100%;
   text-align: center;
 }
+@media screen and (max-width: 1000px) {
+  .skills .container .text {
+    bottom: -10%;
+  }
+}
 @media screen and (max-width: 425px) {
   .skills .container .text {
+    bottom: -20%;
     margin-top: 5%;
     position: relative;
   }

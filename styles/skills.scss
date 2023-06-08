@@ -140,7 +140,7 @@
         transition: 0.2s ease;
         user-select: none;
 
-        @media screen and (max-width: 425px) {
+        @media screen and (max-width: 805px) {
           margin: 0 0;
           padding: 1rem 1rem;
         }
@@ -163,8 +163,12 @@
       bottom: -20%;
       width: 100%;
       text-align: center;
-
+      
+      @media screen and (max-width: 1000px) {
+        bottom: -10%;
+      }
       @media screen and (max-width: 425px) {
+        bottom: -20%;
         margin-top: 5%;
         position: relative;
       }
