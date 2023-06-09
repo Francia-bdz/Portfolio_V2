@@ -1,0 +1,4 @@
+User-agent: Googlebot-Image
+Disallow: /chemin/vers/image1.jpg
+Disallow: /chemin/vers/image2.jpg
+Disallow: /chemin/vers/image3.jpg
