@@ -178,6 +178,13 @@ body {
     height: auto;
   }
 }
+@media screen and (max-height: 700px) {
+  .home {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+  }
+}
 .home .container {
   padding: 8% 8%;
   position: relative;
@@ -257,6 +264,11 @@ body {
   top: 0px;
   animation: rotateText 15s linear infinite;
 }
+@media screen and (max-height: 800px) {
+  .home .container .scroll-text {
+    top: -35px;
+  }
+}
 @keyframes rotateText {
   0% {
     transform: rotate(360deg);
@@ -283,6 +295,13 @@ body {
   z-index: 2;
 }
 @media screen and (max-width: 1000px) {
+  .projects {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+  }
+}
+@media screen and (max-height: 700px) {
   .projects {
     position: relative;
     position: -webkit-relative;
@@ -428,6 +447,13 @@ body {
   z-index: 3;
 }
 @media screen and (max-width: 1000px) {
+  .skills {
+    position: relative;
+    position: -webkit-relative;
+    height: auto;
+  }
+}
+@media screen and (max-height: 700px) {
   .skills {
     position: relative;
     position: -webkit-relative;

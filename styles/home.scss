@@ -15,6 +15,12 @@
         height: auto;
     }
 
+    @media screen and (max-height: 700px) {
+        position: relative;
+        position: -webkit-relative;
+        height: auto;
+    }
+
     .container {
 
         padding: 8% 8%;
@@ -88,6 +94,10 @@
             position: absolute;
             top: 0px;
             animation: rotateText 15s linear infinite;
+
+            @media screen and (max-height: 800px) {
+                top: -35px;
+            }
 
             @keyframes rotateText {
 

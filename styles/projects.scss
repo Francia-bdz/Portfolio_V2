@@ -14,6 +14,13 @@
         position: -webkit-relative;
         height: auto;
     }
+
+    @media screen and (max-height: 700px) {
+        position: relative;
+        position: -webkit-relative;
+        height: auto;
+    }
+
     .container {
 
         padding: 3% 7%;
