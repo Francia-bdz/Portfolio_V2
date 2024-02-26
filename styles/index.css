@@ -286,7 +286,7 @@ body {
 
 /* Partie projet */
 .projects {
-  background-color: #DA7E10;
+  background-color: #CF780E;
   background-image: url("/assets/image/Grain5.png");
   height: 115vh;
   position: sticky;
@@ -661,7 +661,7 @@ body {
 }
 .about .container p {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 120%;
 }
 .about .container a {
