@@ -8,15 +8,15 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .typeString('<span style="color: #DA7E10; background-color:#F9F9F9;padding: 2% 2% 0px 2%;">JUNIOR.</span>')
+  .typeString('<span style="color: #DA7E10; background-color:#F9F9F9;padding: 2% 2% 0px 2%;">AGILE.</span>')
   .pauseFor(3000)
-  .deleteChars(10)
-  .typeString('<span style="color: #007744; background-color:#F9F9F9;padding: 2% 2% 0px 2%;">FULL-STACK.</span>')
+  .deleteChars(7)
+  .typeString('<span style="color: #007744; background-color:#F9F9F9;padding: 2% 2% 0px 2%;">POLYVALENTE.</span>')
   .pauseFor(3000)
-  .deleteChars(12)
-  .typeString('<span style="color: #002FA7;background-color:#F9F9F9;padding: 2% 2% 0px 2%;">CRÉA.</span>')
+  .deleteChars(13)
+  .typeString('<span style="color: #002FA7;background-color:#F9F9F9;padding: 2% 2% 0px 2%;">STRATÉGIQUE.</span>')
   .pauseFor(3000)
-  .deleteChars(5)
+  .deleteChars(14)
 .start();
 
 // Défilez vers le bas

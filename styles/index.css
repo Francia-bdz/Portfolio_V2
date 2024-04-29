@@ -209,6 +209,7 @@ body {
   }
 }
 .home .container .function {
+  font-family: "Thunder";
   font-size: 800%;
   font-weight: bold;
 }
@@ -660,11 +661,16 @@ body {
   position: relative;
 }
 .about .container p {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: normal;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 120%;
+  font-weight: 300;
+  line-height: 130%;
 }
 .about .container a {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: normal;
+  font-size: 19px;
   font-weight: 600;
   display: inline-block;
   position: relative;
