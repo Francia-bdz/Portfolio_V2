@@ -86,14 +86,31 @@
                 }
 
                 p {
-                    font-size: 125%;
+                    font-family: 'Oswald', sans-serif;
+                    letter-spacing: 0;
+                    font-size: 115%;
                     font-weight: 400;
                     line-height: 125%;
                     @media screen and (max-width: 425px) {
                         font-size: 120%;
                     }
 
+                    a {
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 100%;
+                        letter-spacing: 0;
+                        font-weight: 400;
+                        line-height: 125%;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    a:hover {
+                        color: #FFE9CF ;
+                    }
+
                     .bold {
+                        font-family: 'Oswald', sans-serif;
+                        letter-spacing: 0;
                         font-weight: bold;
                     }
 

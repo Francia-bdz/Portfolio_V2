@@ -374,7 +374,9 @@ body {
   transform-origin: bottom left;
 }
 .projects .container .container_item .item p {
-  font-size: 125%;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0;
+  font-size: 115%;
   font-weight: 400;
   line-height: 125%;
 }
@@ -383,7 +385,20 @@ body {
     font-size: 120%;
   }
 }
+.projects .container .container_item .item p a {
+  font-family: "Oswald", sans-serif;
+  font-size: 100%;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 125%;
+  transition: all 0.3s ease-in-out;
+}
+.projects .container .container_item .item p a:hover {
+  color: #FFE9CF;
+}
 .projects .container .container_item .item p .bold {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0;
   font-weight: bold;
 }
 .projects .container .container_item .item .image {
@@ -773,6 +788,8 @@ body {
   }
 }
 .about footer .legals {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0;
   padding: 2% 0 2% 7%;
   font-size: 18px;
 }
